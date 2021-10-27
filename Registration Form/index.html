@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now!</title>
+</head>
+<body>
+    <div>
+        <h1>Registration Form</h1>
+    </div>
+    <div>
+        <label>First Name: </label>
+        <input type="text" name="firstName" placeholder="Jane">
+    </div>
+    <div>
+        <label>Last Name: </label>
+        <input type="text" name="lastName" placeholder="Doe">
+    </div>
+    <div>
+        <label>Email: </label>
+        <input type="text" name="Email" placeholder="janedoe@hotmail.com">
+    </div>
+    <div>
+        <label>Password: </label>
+        <input type="password" name="password" placeholder="********">
+    </div>
+    <div>
+        <label>Confirm Password: </label>
+        <input type="password" name="confirmPassword" placeholder="********">
+    </div>
+    <div>
+        <label>Birthday: </label>
+        <input type="date" name="Birthday" placeholder="">
+    </div>
+    <div><label>Gender Identity:</label></div>
+    <div>
+        <input type="radio" id="Male" name="genderIdentity" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="genderIdentity" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Non-binary" name="genderIdentity" value="Non-binary">
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" id="noAnswer" name="genderIdentity" value="noAnswer">
+        <label for="noAnswer">I prefer not to answer</label>
+    </div>
+    <div>A short description about myself:</div>
+    <div>
+        <input type="text" name="selfDescription" placeholder="I like to play D&D for days!">
+    </div>
+    <div>
+        <label for="language">Favorite Language: </label>
+        <select name="language" id="language">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+        <label for="subscribe">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <div>
+        <button type="submit" form="" value="submit">Submit</button>
+    </div>
+    <div>* indicates a required field</div>
+</body>
+</html>
