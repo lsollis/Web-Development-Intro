@@ -1,0 +1,196 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+	margin: 0;
+}
+
+#container {
+    width: 975px;
+}
+
+div {
+    /*border: solid 1px red;*/
+}
+
+#navbar {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtext {
+    display: flex;
+    align-items: center;
+}
+
+.gray {
+    color: rgb(219, 219, 219);
+}
+
+#navbar p {
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+#navbar h2 {
+    padding-right: 20px;
+}
+
+#navbar button {
+    color: white;
+    background-color: rgb(96, 198, 238);
+    margin-right: 80px;
+    padding: 5px;
+}
+
+#main_profile_pic {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    border: 3px solid rgb(77, 75, 75)
+}
+
+.block {
+    display:block;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#navtext {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+#blue {
+    height: 70px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(96, 198, 238);
+}
+
+#profilepic {
+    position: relative;
+    top: -30px;
+    border-radius: 70px;
+    border: 2px solid rgb(77, 75, 75);
+}
+
+#map_marker {
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+#edit_profile {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin-top:5px;
+}
+
+#gear_icon {
+    padding-right: 4px;
+}
+
+.main_content span {
+    font-size: 18px;
+}
+
+
+h4 {
+    color: white;
+    background-color: rgb(77, 75, 75);
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+}
+
+.main_content {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+h6 {
+    font-size: 13px;
+    color: gray;
+    padding-top: 4px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+#leftcolumn {
+    width: 500px;
+}
+
+#rightcolumn {
+    width: 300px;
+}
+
+#education_content {
+    padding-bottom: 5px;
+}
+
+.box {
+    border: solid 2px gray;
+    margin: 20px;
+}
+
+.contacts {
+    padding: 5px;
+}
+
+#to_contacts {
+    padding: 5px;
+    border-top: solid 2px gray;
+}
+
+h4 {
+    padding: 5px;
+}
+
+.box p {
+    padding: 5px;
+}
+
+.profilepic {
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connections {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.connection_requests {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
