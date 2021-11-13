@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#container {
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+#row1 {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#user-name {
+    font-size: 20px;
+}
+
+button {
+    padding: 3px;
+    background-color: rgb(243, 207, 0);
+}
