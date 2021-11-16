@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: silver;
+}
+
+.top-nav-bar {
+    background-color: #444444;
+    border: 3px solid gold;
+}
+
+.blue-text {
+    color: aqua;
+}
+
+.nav-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 50px;
+    color: bisque;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 3px 50px;
+}
+
+.nav-btn {
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.pop-classes {
+    color: gold;
+    margin-left: 50px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+#pop-class-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.class-card {
+    width: 175px;
+    padding: 10px;
+    border: 2px solid gold;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 175px;
+}
+
+.class-name {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.heart {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.join-button {
+    padding: 2px 5px;
+}
+

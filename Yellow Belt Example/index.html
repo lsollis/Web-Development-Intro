@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Fitness</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-nav-bar">
+                <div class="nav-banner">
+                    <h1 class="blue-text">DojoFitness</h1>
+                    <p>My Classes <span id="class-counter">0</span> <span class="blue-text">|</span> <span onMouseOver="this.style.cursor='pointer'" onclick="alert('Please click OK to securely log out.')">Logout</span></p>
+                </div>
+                <div class="nav-buttons">
+                    <button class="nav-btn">Weapons</button>
+                    <button class="nav-btn">Taijustsu</button>
+                    <button class="nav-btn">Strength</button>
+                    <button class="nav-btn">Stealth</button>
+                    <button class="nav-btn">Evasion</button>
+                    <button class="nav-btn">Zen</button>
+                    <button class="nav-btn">Nutrition</button>
+                </div>
+        </div>
+        <div class="main-content">
+                <div class="pop-classes">
+                    <h2>Popular Classes</h2>
+                    <div id="pop-class-row">
+                        <div class="class-card">
+                            <img src="imgs/taijutsu.jpeg" alt="Taijutsu Combat" class="card-image">
+                            <p class="class-name"><a href="">Taijutsu Combat</a></p>
+                            <div class="card-foot">
+                                <div class="like">
+                                    <img src="imgs/heart.png" alt="heart" class="heart" onclick="like('counter1')">
+                                    <span class="counter" id="counter1">0</span>
+                                </div>
+                                <button class="join-button">Join</button>
+                            </div>
+                        </div>
+                        <div class="class-card">
+                            <img src="imgs/taijutsu.jpeg" alt="Taijutsu Combat" class="card-image">
+                            <p class="class-name"><a href="">Taijutsu Combat</a></p>
+                            <div class="card-foot">
+                                <div class="like">
+                                    <img src="imgs/heart.png" alt="heart" class="heart" onclick="like('counter2')">
+                                    <span class="counter" id="counter2">0</span>
+                                </div>
+                                <button class="join-button">Join</button>
+                            </div>
+                        </div>
+                        <div class="class-card">
+                            <img src="imgs/taijutsu.jpeg" alt="Taijutsu Combat" class="card-image">
+                            <p class="class-name"><a href="">Taijutsu Combat</a></p>
+                            <div class="card-foot">
+                                <div class="like">
+                                    <img src="imgs/heart.png" alt="heart" class="heart" onclick="like('counter3')">
+                                    <span class="counter" id="counter3">0</span>
+                                </div>
+                                <button onclick="join(this)">Join</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-sensei"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
