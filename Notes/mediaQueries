@@ -1,0 +1,40 @@
+Desktop vs Tablet vs phone
+
+Need to consider different form factors and design separately for each device
+- detect size of the screen
+- desktop: >= 1024 px
+- tablet - 481 to 1023 px
+- phone: less than 480px
+
+Can change colors, etc depending on layout
+
+How to find size of screen?
+-media query
+
+if screen <= 480px:
+    .navbtn color yellow
+if > 480px
+    .navbtn color blue
+if >= 1024
+    .navbtn color red
+
+Flexible units
+- usually use px for padding because we want the same amouont regardless of screen size
+- can use % to set an element to take a certain amount of available width, which is determined by screen size
+- em and rem - em is a multiplier of element's parent
+
+Grid System
+- imagine page is split into even columns and rows
+- define a column as % of screen width
+
+Give different classes depending on screen size
+-phone: .small-1column
+-tablet: .medium-2column
+-desktop: .large-4column
+
+screen <=480px
+    define small-1column width 100%
+screen > 480px
+    define medium-2column 50%
+screen >= 1024px
+    define large-4column 25%
