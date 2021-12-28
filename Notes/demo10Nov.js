@@ -23,3 +23,14 @@ if(element.hasOwnProperty("src")) {
 else {
     console.log("nope");
 }
+//keywords are dark blue
+
+//double vs triple equals sign
+// === use this one!!!! (strictly equals)
+// == will make int == string
+
+if (5 == "5") {
+    console.log("true");
+}
+
+if(!true) //if not true

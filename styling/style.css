@@ -1,0 +1,30 @@
+* {
+    font-family:sans-serif;
+    margin:8px;
+}
+
+h1 {
+    color:white;
+    background-color: black;
+    padding: 4px 20px;
+    font-weight:bold;
+}
+span {
+    color:aqua;
+}
+
+h2 {
+    text-align: center;
+    color:white;
+    background-color: rebeccapurple;
+    font-weight:normal;
+}
+
+h3 {
+    text-align: right;
+    color:rebeccapurple;
+    background-color:rgb(151, 195, 245);
+    font-weight:normal;
+    text-decoration:underline;
+    padding:3px 10px;
+}

@@ -1,0 +1,53 @@
+jQuery
+- a library that specializes in making javascript code easier and more concise
+- need to add the code into a project because it's a library
+- can either download the code or use a content delivery network (CDN) link to use the library hosted on another server
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+- put the script tag before our JS script tag
+
+Adding Event Listeners:
+
+var btns = document.querySelectorAll("button");
+    
+for(var i=0; i<btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+        alert("Button clicked!");
+    });
+}
+
+^^ event listener above is the equivalend of addin an onclick="alert('Button clicked!')" to each button tag on the page
+
+Jquery version:
+
+$("button").click(function() {
+    alert("Button clicked");
+});
+
+in jQuery - library exposes the variable $ to us which we can call as a function by passing in the selector we want to use
+
+jQuery events we can listen for:
+.hover
+.change
+.submit
+.hide - hides an element
+.fadeout - slow fading out effect
+.slideup - collapse element height upward until it disppeears
+
+.show, .hide, .toggle (toggle combines show and hide)
+
+.fadeOut, .fadeIn, .fadeToggle (combinde hiding and showing with a fade effect)
+
+.slideUp, slideDown, slideToggle (animate hiding and showing with a sliding effect)
+
+DOM Manipulation with jQuery
+
+.attr - get/set and element's attribute
+.text - get or set text inside an element
+.html - alters HTML inside of an element
+.append, .prepend - add new elements at the end or beginning of an element
+
+Styles can be modified w/jQuery:
+.css - alter an element's css properties
+.addClass, .removeClass - methods to add and remove CSS classes on an element
