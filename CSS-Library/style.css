@@ -1,0 +1,49 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*button base template*/
+.button {
+    color: white;
+    background-color:rgb(3, 107, 241);
+    border: 2px solid black;
+    padding: 3px 20px;
+}
+/*button with shadow on hover*/
+button:hover {
+    color: white;
+    background-color:rgb(3, 107, 241);
+    border: 2px solid black;
+    padding: 3px 20px;
+    box-shadow: 3px 4px black;
+}
+/*row*/
+.row {
+    display:flex;
+}
+/*column*/
+.col {
+    flex:1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:teal;
+    color:white;
+    margin:5px 20px;
+    padding:10px;
+}
+/*navbar*/
+.nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(83, 83, 83);
+    font-family: Roboto, sans-serif;
+    padding:0px 20px;
+}

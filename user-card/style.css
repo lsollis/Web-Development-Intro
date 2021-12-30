@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#container {
+    width:75%;
+    border:3px solid lightgray;
+    margin-left:12.5%;
+    margin-top:3%;
+}
+
+#top-accent {
+    background-color: teal;
+    display:block;
+    height:80px;
+}
+
+#profile-pic {
+    width:100px;
+    position:relative;
+    top:-50px;
+    left:4%;
+}
+
+#text {
+    position:relative;
+    top:-35px;
+    left:4%;
+}
+
+h1 {
+    font-weight:500;
+}
+
+.icon {
+    height:15px;
+}
+
+#location {
+    margin: 8px 0px;
+}
+
+#settings {
+    margin-top:8px;
+    display:flex;
+    align-items:center;
+}
+a {
+    margin-left:4px;
+}
+
+p {
+    font-size:0.9em;
+}

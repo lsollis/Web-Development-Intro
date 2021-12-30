@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Button Clicker v2</title>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <h1>Dojonary</h1>
+            <input type="text" id="text">
+            <button type="button" onclick="login(this)" id="login">Login</button>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div class="word">
+                    <div class="pronounce">
+                        <h2>ninja</h2>
+                        <p><span>noun</span></p>
+                        <p>Plural: <span>ninjas</span></p>
+                        <button type="button" class="likes" onclick="alert('Ninja was liked!')">1 likes</button>
+                    </div>
+                    <p class="definition">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                </div>
+                <div class="word">
+                    <div class="pronounce">
+                        <h2>ninja</h2>
+                        <p><span>noun</span></p>
+                        <p>Plural: <span>ninjas</span></p>
+                        <button type="button" class="likes" onclick="alert('Ninja was liked!')">1 likes</button>
+                    </div>
+                    <p class="definition">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="add-definition">
+                    <p>Dojonary is defined by YOU</p>
+                    <button type="button" id="add-definition" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+  /* Fixed width container class that will "auto-center" itself */
+#container {
+    width: 75%;
+    margin: 0 auto;
+    min-width:430px;
+}
+/*navbar*/
+#navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: lightgray;
+    padding:5px 20px;
+}
+#text {
+    border: 2px solid black;
+    border-radius:6%;
+}
+/*button base template*/
+button {
+    color: white;
+    background-color:rgb(3, 107, 241);
+    border: 2px solid black;
+    padding: 3px 20px;
+}
+/*button with shadow on hover*/
+button:hover {
+    border: 2px solid black;
+    padding: 3px 20px;
+    box-shadow: 3px 4px black;
+}
+#login {
+    min-width:85px;
+}
+.likes {
+    background-color: gold;
+    color:black;
+}
+#add-definition {
+    background-color: rgb(87, 192, 78);
+    color:black;
+}
+/*row*/
+.row {
+    display:flex;
+}
+/*column*/
+.col {
+    flex:1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    color:black;
+    margin-top:10px;
+}
+.col-2 {
+    flex:2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    color:black;
+    margin-top:10px;
+    margin-right:10px;
+}
+.word {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+.pronounce {
+    flex:1;
+    margin-right:20px;
+    text-align:center;
+}
+.definition {
+    flex:2;
+}
+span {
+    font-style:italic;
+}
+.add-definition {
+    border:2px solid black;
+    padding:10px;
+}
