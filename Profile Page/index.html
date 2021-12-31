@@ -34,7 +34,7 @@
                         <span class="block">Master of shadows and the internet!</span>
                         <div id="edit_profile">
                             <img src="icons/gear.png" alt="gear icon" width="15px" id="gear_icon">
-                            <a href="">edit profile</a>
+                            <p id="link" onclick="nameChange()">edit profile</p>
                         </div>
                     </div>
                 </div>
@@ -49,30 +49,30 @@
             </div>
             <div class="column" id="rightcolumn">
                 <div class="box">
-                    <h4>Connection Requests</h4>
-                    <div class="contacts">
+                    <h4><span class="connection-counts" id="connection-requests-number">2</span> Connection Requests</h4>
+                    <div class="contacts" id="alayne">
                         <div class="connection_requests">
                             <img src="images/alayne-s.jpg" alt="alayne s" width="20" class="profilepic" id="my_profile_pic">
                             <span>Alayne S.</span>
                         </div>
                         <div>
-                            <img src="icons/accept-circle.png" alt="accept" width="20">
-                            <img src="icons/close-circle.png" alt="reject" width="20">
+                            <img src="icons/accept-circle.png" alt="accept" width="20" onclick="accept(alayneRequest); increment(1,numConnections); decrement(0,numConnectionRequests)">
+                            <img src="icons/close-circle.png" alt="reject" width="20" onclick="accept(alayneRequest); decrement(0,numConnectionRequests)">
                         </div>
                     </div>
-                    <div class="contacts">
+                    <div class="contacts" id="anne">
                         <div class="connection_requests">
                             <img src="images/anne-s.jpg" alt="anne s" width="20" class="profilepic">
                             <span>Anne S.</span>
                         </div>
                         <div>
-                            <img src="icons/accept-circle.png" alt="accept" width="20">
-                            <img src="icons/close-circle.png" alt="reject" width="20">
+                            <img src="icons/accept-circle.png" alt="accept" width="20" onclick="accept(anneRequest); increment(1,numConnections); decrement(0,numConnectionRequests)">
+                            <img src="icons/close-circle.png" alt="reject" width="20" onclick="accept(anneRequest); decrement(0,numConnectionRequests)">
                         </div>
                     </div>
                 </div>
                 <div class="box">
-                    <h4>Your Connections</h4>
+                    <h4><span class="connection-counts" id="my-connections">418</span> Your Connections</h4>
                     <div class="connections">
                         <img src="images/todd-s.jpg" alt="todd s" width="20" class="profilepic">
                         <span>Todd S.</span>
@@ -96,5 +96,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

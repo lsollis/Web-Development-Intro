@@ -5,7 +5,9 @@
 }
 
 #container {
-    width: 975px;
+    width: 80%;
+    margin-left:10%;
+    min-width: 635px;
 }
 
 div {
@@ -14,18 +16,17 @@ div {
 
 #navbar {
     background-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
+    margin-bottom:20px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content:space-between;
 }
 
 .navtext {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 .gray {
@@ -44,7 +45,6 @@ div {
 #navbar button {
     color: white;
     background-color: rgb(96, 198, 238);
-    margin-right: 80px;
     padding: 5px;
 }
 
@@ -53,6 +53,11 @@ div {
     top: 20px;
     margin-left: 20px;
     border: 3px solid rgb(77, 75, 75)
+}
+
+#link {
+    text-decoration:underline;
+    color:blue;
 }
 
 .block {
@@ -68,7 +73,6 @@ h3 {
     color: white;
     display: flex;
     align-items: center;
-    margin-left: 90px;
 }
 
 #blue {
@@ -92,13 +96,14 @@ h3 {
 
 #edit_profile {
     display: flex;
-    text-align: center;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content:flex-start;
     margin-top:5px;
 }
 
 #gear_icon {
     padding-right: 4px;
+    height:15px;
 }
 
 .main_content span {
@@ -143,6 +148,7 @@ h6 {
 
 #rightcolumn {
     width: 300px;
+    margin-left:20px;
 }
 
 #education_content {
@@ -151,7 +157,7 @@ h6 {
 
 .box {
     border: solid 2px gray;
-    margin: 20px;
+    margin-bottom:10px;
 }
 
 .contacts {
@@ -193,4 +199,13 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.connection-counts {
+    color:black;
+    background-color:lightgray;
+    padding: 1px 5px;
+    border-radius:50%;
+    font-weight:normal;
+    font-size:0.8em;
 }

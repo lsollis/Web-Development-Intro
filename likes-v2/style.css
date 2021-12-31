@@ -1,0 +1,80 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+  /* Fixed width container class that will "auto-center" itself */
+#container {
+    width: 75%;
+    margin: 0 auto;
+    min-width:430px;
+}
+/*navbar*/
+#navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding:5px 20px;
+}
+h1 {
+    font-weight:normal;
+}
+h2 {
+    text-align:center;
+    font-weight:normal;
+}
+#profile {
+border: 2px solid black;
+margin-right: 20px;
+padding:10px;
+text-align:center;
+}
+.post {
+    border: 2px solid black;
+    margin-bottom:10px;
+    padding:10px;
+}
+img {
+    border-radius:50%;
+    border:2px solid black;
+}
+/*button base template*/
+button {
+    color: white;
+    background-color:rgb(3, 107, 241);
+    border: 2px solid black;
+    padding: 3px 20px;
+}
+/*button with shadow on hover*/
+button:hover {
+    border: 2px solid black;
+    padding: 3px 20px;
+    box-shadow: 3px 4px black;
+}
+.body {
+    display:flex;
+}
+/*column*/
+.col {
+    flex:1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    color:black;
+    margin-top:10px;
+}
+.col-2 {
+    flex:2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    color:black;
+    margin-top:10px;
+}
+.post-header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}

@@ -6,7 +6,6 @@ var countLikesElement1 = document.querySelector("#likes1");
 var countLikesElement2 = document.querySelector("#likes2");
 var countLikesElement3 = document.querySelector("#likes3");
 
-
 function addLike1() {
     count1++;
     countLikesElement1.innerText = count1 + " like(s)";
