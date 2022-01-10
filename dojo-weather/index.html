@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div id="navbar">
+        <h1>DojoWeather</h1>
+        <div id="navbar-cities">
+            <span onclick="loading()">Burbank</span>
+            <span onclick="alert('Loading weather report...')">Chicago</span>
+            <span onclick="alert('Loading weather report...')">Dallas</span>
+        </div>
+    </div>
+    <div id="body">
+        <div id="options-bar">
+            <h2>San Jose</h2>
+            <div id="temperature-dropdown">
+                <label for="degree-type">show temperature in</label>
+                <select name="degree-type" id="degree-type" onchange="convert(this)">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="forecast-card">
+                <h3>Today</h3>
+                <img src="imgs/some_rain.png" alt="weather graphic">
+                <p class="weather-description">some rain</p>
+                <div class="high-low">
+                    <p class="high" id="temp1">24</p>
+                    <p class="low" id="temp2">18</p>
+                </div>
+            </div>
+            <div class="forecast-card">
+                <h3>Tomorrow</h3>
+                <img src="imgs/some_sun.png" alt="weather graphic">
+                <p class="weather-description">some sun</p>
+                <div class="high-low">
+                    <p class="high" id="temp3">27</p>
+                    <p class="low" id="temp4">19</p>
+                </div>
+            </div>
+            <div class="forecast-card">
+                <h3>Friday</h3>
+                <img src="imgs/some_clouds.png" alt="weather graphic">
+                <p class="weather-description">some clouds</p>
+                <div class="high-low">
+                    <p class="high" id="temp5">21</p>
+                    <p class="low" id="temp6">16</p>
+                </div>
+            </div>
+            <div class="forecast-card">
+                <h3>Saturday</h3>
+                <img src="imgs/some_sun.png" alt="weather graphic">
+                <p class="weather-description">some sun</p>
+                <div class="high-low">
+                    <p class="high" id="temp7">26</p>
+                    <p class="low" id="temp8">21</p>
+                </div>
+            </div>
+        </div>
+        <div id="cookie-notification">
+            <img id="cookie" src="imgs/cookie.png" alt="cookie">
+            <div>
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
+            </div>
+            <button class="button" type="button" onclick="hideCookie()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -10,5 +10,5 @@ function logout() {
     else {
         change.innerHTML = "Login";
     }
-    console.log("signout")
+    console.log("signout");
 }
